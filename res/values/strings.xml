@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Clock</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings_title">Clock Settings</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="background">Background</string>
+    
+    <string-array name="settings_dialog">
+        <item>12-hour clock</item>
+        <item>24-hour clock</item>
+    </string-array>
+
+</resources>
