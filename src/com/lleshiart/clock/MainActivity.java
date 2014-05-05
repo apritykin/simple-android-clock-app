@@ -126,6 +126,9 @@ public class MainActivity extends ActionBarActivity {
 		
 		// If the current Clock format is 24-hour clock
 		if (mClockFormatIs24) {
+			if (currentHour24.length() == 1) {
+				currentHour24 = "0" + currentHour24;
+			}
 			mHourText.setText(currentHour24);
 		}
 		else {
